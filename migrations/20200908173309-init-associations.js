@@ -1,4 +1,5 @@
 'use strict';
+//Working code 
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
