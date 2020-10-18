@@ -1,7 +1,7 @@
 /**
  * General (utility) functions
  */
-
+// working code
 // eslint-disable-next-line no-unused-vars
 function loadSdtdServers(userId) {
   let serverslist = $('#sdtd-servers-owned');
