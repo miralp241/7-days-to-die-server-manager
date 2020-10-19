@@ -7,6 +7,7 @@ module.exports = {
     return getMethods(obj).filter(m => m !== 'constructor').reduce(function(ret, method) {
       if (exposedFunctions.includes(method)) {
         ret[method] = obj[method].bind(obj);
+        return obj;
       } else {
         ret[method] = obj[method];
       }
