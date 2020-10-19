@@ -8,13 +8,15 @@ const http = require('http');
 const options = {
   host: 'localhost',
   port: '1337',
-  timeout: 2000,
+  timeout: 3000,
   path: '/api/stats/'
 };
 
 const request = http.request(options, (res) => {
   console.log(`STATUS: ${res.statusCode}`);
   if (res.statusCode === 200) {
+    
+    console.log('Exiting');
     process.exit(0);
   }
   else {
@@ -23,8 +25,9 @@ const request = http.request(options, (res) => {
 });
 
 request.on('error', function () {
-  console.log('ERROR');
+  console.log('THERE IS SOME ERROR');
   process.exit(1);
 });
+
 
 request.end();
