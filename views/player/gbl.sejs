@@ -195,7 +195,7 @@
     </div>
   </div>
 </div>
-
+<!--End Remove Modal -->
 <!-- Edit Modal -->
 <div class="modal fade" id="edit-comment-modal" tabindex="-1" role="dialog" aria-labelledby="edit-comment-modal-title"
   aria-hidden="true">
@@ -219,6 +219,7 @@
     </div>
   </div>
 </div>
+<!-- End Edit Modal -->
 
 <script>
   $(document).ready(() => {
@@ -233,7 +234,7 @@
     $("#comments").hide();
     $("#ban-note").hide();
 
-
+    console.log('Loading....')
 
     loadBans(bannedUserSteamId).then(data => {
         bans = data;
