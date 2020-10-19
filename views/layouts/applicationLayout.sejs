@@ -135,31 +135,6 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
 
 
-  <!-- Font awesome 5 -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-
-  <!--SCRIPTS-->
-  <%- scriptTag('/dependencies/sails.io.js') %>
-  <%- scriptTag('/dependencies/jquery-3.2.1.js') %>
-  <%- scriptTag('/dependencies/jquery-3.2.1.min.js') %>
-  <%- scriptTag('/dependencies/bootstrap/js/bootstrap.bundle.js') %>
-  <%- scriptTag('/dependencies/bootstrap/js/bootstrap.bundle.min.js') %>
-  <%- scriptTag('/dependencies/bootstrap/js/bootstrap.js') %>
-  <%- scriptTag('/dependencies/bootstrap/js/bootstrap.min.js') %>
-  <%- scriptTag('/dependencies/jquery-easing/jquery.easing.compatibility.js') %>
-  <%- scriptTag('/dependencies/jquery-easing/jquery.easing.js') %>
-  <%- scriptTag('/dependencies/jquery-easing/jquery.easing.min.js') %>
-  <%- scriptTag('/dependencies/lodash.js') %>
-  <%- scriptTag('/dependencies/sb-admin/sb-admin.js') %>
-  <%- scriptTag('/dependencies/validator.js') %>
-  <%- scriptTag('/js/app.js') %>
-  <%- scriptTag('/js/gbl/gblComments.js') %>
-  <%- scriptTag('/js/sdtdServer/chat.js') %>
-  <%- scriptTag('/js/sdtdServer/console.js') %>
-  <%- scriptTag('/js/sdtdServer/map.js') %>
-  <!--SCRIPTS END-->
-
 
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
@@ -225,7 +200,7 @@
 
               <a href="http://catalysm.net/discord" target="_blank"><i class="fab fa-discord"></i> Join our Discord for
                 support.</a>
-
+              <br>
               <br>
 
               <small class="text-muted">Pssst, there might be an error message in the console you can send us!</small>
@@ -260,6 +235,8 @@
   })
 
 </script>
-
+<script>
+  console.log("Success")
+<script>
 
 </html>
